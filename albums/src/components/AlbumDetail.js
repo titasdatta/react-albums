@@ -4,7 +4,9 @@ import { View, Text } from 'react-native';
 const AlbumDetail = props => {
 
 	return (
-		<Text>{ props.album.title }</Text>
+		<View>
+			<Text>{ props.album.title }</Text>
+		</View>
 		);
 };
 
